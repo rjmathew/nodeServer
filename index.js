@@ -5,5 +5,5 @@ var server = require("./server.js");
 var router = require("./router.js");
 var pageserver = require("./pageserver.js");
 
-// Starts the server.
+// Starts the server.d
 server.Start(router.route, pageserver.serve, pageserver.reqtype);
